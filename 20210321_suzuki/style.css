@@ -1,0 +1,61 @@
+header {
+  width: 100%;
+  color: rgb(10, 36, 85);
+  height: 200px;
+}
+
+.title {
+  float: left;
+}
+
+.header-list {
+  float: right;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+
+}
+
+li {
+   display: inline;
+   margin: auto 20px;
+}
+
+.top {
+  width: 100%;
+}
+
+.top-image {
+  float: right;
+  width: 50%;
+  
+}
+
+img {
+  width: 100%;
+  background-size: cover;
+}
+
+.top-text {
+  font-size: 90px;
+  display: flex;
+  flex-direction: column-reverse;
+  height: 450px;
+  margin-bottom: 0;
+}
+
+p {
+  margin-bottom: 0;
+  padding-bottom: 0px;
+}
+
+.top-box {
+  background-color: rgb(10, 36, 85);
+  width: 70%;
+  height: 300px;
+  margin-top: 0;
+  padding-top: 0;
+}
