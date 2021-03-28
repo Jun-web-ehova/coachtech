@@ -1,0 +1,452 @@
+body {
+  width: 1300px;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-left {
+  width: 50%;
+}
+.header-left img {
+  width: 20%;
+}
+.header-right {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+.header-right ul {
+  display: flex;
+}
+.header-right li {
+  list-style: none;
+}
+.header-right a {
+  text-decoration: none;
+  margin-right: 20px;
+  color: black;
+}
+
+
+.top {
+  width: 100%;
+  height: 500px;
+}
+.top-image {
+  width: 100%;
+  height: 80%;
+  background-image: url(../img/firstview.jpg);
+  background-size: 60% 100%;
+  background-repeat: no-repeat;
+  background-position: right;
+  display: flex;
+  align-items: center;
+}
+.top-text {
+  width: 750px;
+  padding-bottom: 70px;
+  margin: 0 auto;
+}
+.top h1 {
+  font-size: 50px;
+  margin: 35px auto 50px;
+  color: rgb(172, 6, 103);
+  font-family: 'Architects Daughter', cursive;
+}
+.top h2 {
+  font-size: 20px;
+  margin: 35px auto 10px ;
+  color: rgb(172, 6, 103);
+}
+.top h3 {
+  margin: 10px auto 10px;
+  font-size: 13px;
+  color: gray;
+}
+.top span {
+  color: rgb(4, 170, 170);
+}
+
+
+.news {
+  width: 100%;
+}
+.news-title {
+  width: 700px;
+  margin: 0 auto 25px;
+}
+.news-title p {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 15px;
+  margin-bottom: 10px;
+  color: rgb(172, 6, 103);
+}
+.news-title h2 {
+  color: gray;
+  font-size: 20px;
+}
+.news-list {
+  width: 700px;
+  margin: 0 auto;
+  padding: 20px 0px;
+  border-top: 2px solid silver;
+  border-bottom: 2px solid silver;
+}
+.news-list p {
+  display: block;
+  color: gray;
+  font-size: 14px;
+  margin: 10px auto ;
+  border-bottom: 1px solid silver;
+  padding: 15px 0px;
+}
+.news-list span {
+  margin: auto 30px;
+  color: white;
+  background-color: rgb(172, 6, 103);
+  padding: 2px 15px;
+  border-radius: 15px;
+}
+
+
+.about {
+  width: 100%;
+  height: 400px;
+  padding-top: 20px;
+  margin: 100px 0px;
+  text-align: center;
+  background-color: whitesmoke;
+}
+.about-title {
+  margin: 10px;
+}
+.about-title p {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 15px;
+  color: rgb(172, 6, 103);
+  display: block;
+  margin: 15px;
+}
+.about-title h2 {
+  font-size: 24px;
+  color: gray;
+  margin-bottom: 30px;
+}
+.about-contents {
+  width: 880px;
+  display: flex;
+  height: 70%;
+  margin: 0 auto;
+}
+.about-text {
+  width: 50%;
+  height: 60%;
+  text-align: left;
+  font-size: 15px;
+  color: gray;
+  line-height: 25px;
+}
+.about-image {
+  width: 50%;
+  height: 100%;
+  text-align: right;
+}
+.about-image img {
+  width: 80%;
+  height: 80%;
+}
+
+
+.service {
+  width: 100%;
+  height: 500px;
+}
+.service-title {
+  width: 880px;
+  margin: 0 auto;
+  text-align: left;
+}
+.service-title p {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 15px;
+  color: rgb(172, 6, 103);
+  display: block;
+  margin-bottom: 20px;
+}
+.service-title h2 {
+  font-size: 24px;
+  color: gray;
+  margin-bottom: 30px;
+}
+.service .contents {
+  width: 880px;
+  margin: 0 auto;
+  height: 360px;
+  display: flex;
+}
+.service .left {
+  width: 50%;
+  height: 100%;
+  background-color: rgb(172, 6, 103);
+  color: white;
+}
+.service .left img {
+  width: 90%;
+  height: 35%;
+  margin: 25px 25px 0px 25px;
+}
+.service .left h3 {
+  display: block;
+  margin: 15px auto;
+  text-align: center;
+  font-size: 16px;
+}
+.service .left p {
+  display: block;
+  margin: 20px 40px;
+  font-size: 13px;
+  line-height: 25px;
+  letter-spacing: 2px;
+}
+.service .right {
+  width: 50%;
+  height: 100%;
+}
+.service .right1 {
+  width: 100%;
+  height: 50%;
+  background-color: rgb(177, 100, 145);
+  display: flex;
+}
+.service .right img {
+  width: 25%;
+  height: 70%;
+  margin: auto 15px;
+}
+.service .right1-text,.right2-text {
+  color: white;
+}
+.service .right h3 {
+  text-align: left;
+  font-size: 16px;
+  display: block;
+  margin-top: 40px;
+}
+.service .right p {
+  font-size: 13px;
+  line-height: 25px;
+  letter-spacing: 2px;
+  display: block;
+  margin: 20px 20px 0px 0px;
+}
+.service .right2 {
+  width: 100%;
+  height: 50%;
+  background-color: rgb(175, 146, 163);
+  display: flex;
+}
+
+
+.blog {
+  width: 100%;
+  height: 550px;
+  background-color: whitesmoke;
+  padding-top: 25px;
+}
+.blog-title {
+  width: 880px;
+  margin: 0 auto;
+  text-align: left;
+}
+.blog-title p {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 15px;
+  color: rgb(172, 6, 103);
+  display: block;
+  margin-bottom: 20px;
+}
+.blog-title h2 {
+  font-size: 24px;
+  color: gray;
+  margin-bottom: 30px;
+}
+.blog .contents {
+  width: 880px;
+  margin: 0 auto;
+  height: 350px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.blog-card {
+  width: 260px;
+  height: 300px;
+  border-radius: 15px;
+  background-color: white;
+}
+.blog-card img {
+  width: 100%;
+  height: 60%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.blog-card h3 {
+  font-size: 14px;
+  display: block;
+  margin: 20px;
+  line-height: 26px;
+  color: gray;
+}
+.blog-card-footer {
+  display: flex;
+  justify-content: space-between;
+  color: gray;
+  font-size: 12px;
+  margin: 15px 15px;
+}
+.blog a {
+  color: rgb(172, 6, 103);
+  text-decoration: none;
+  display: block;
+  margin: 0 auto;
+  border: 2px solid rgb(172, 6, 103);
+  width: 150px;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+
+.company {
+  width: 100%;
+  height: 900px;
+  padding-top: 25px;
+}
+.company-title {
+  width: 700px;
+  margin: 0 auto;
+  text-align: left;
+}
+.company-title p {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 15px;
+  color: rgb(172, 6, 103);
+  display: block;
+  margin-bottom: 20px;
+}
+.company-title h2 {
+  font-size: 24px;
+  color: gray;
+  margin-bottom: 30px;
+}
+table {
+  width: 700px;
+  margin: 0 auto;
+  border: 2px solid gray;
+}
+tr {
+  border: 2px solid gray;
+}
+th {
+  width: 200px;
+  font-size: 14px;
+  display: block;
+  padding: 20px;
+  line-height: 22px;
+  color: gray;
+  text-align: left;
+  background-color: rgb(238, 231, 231);
+}
+td {
+  width: 450px;
+  border: 2px solid gray;
+  color: gray;
+  font-size: 12px;
+  padding-left: 10px;
+}
+.company-link {
+  width: 100%;
+  height: 300px;
+  margin-top: 60px;
+  display: flex;
+}
+.link-left {
+  width: 50%;
+  height: 100%;
+  background-image: url(../img/recruit.png);
+  background-size: cover;
+}
+.link-right {
+  width: 50%;
+  height: 100%;
+  background-image: url(../img/interview.png);
+  background-size: cover;
+}
+.company-link p {
+  display: block;
+  height: 100%;
+  color: white;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+
+.contact {
+  width: 100%;
+  height: 300px;
+  text-align: center;
+}
+.contact h2 {
+  font-size: 18px;
+  color: gray;
+  margin-bottom: 30px;
+}
+.space {
+  width: 50%;
+  height: 30px;
+  border-right: 2px solid rgb(172, 6, 103);
+}
+.contact a {
+  font-size: 15px;
+  text-decoration: none;
+  background-color: rgb(214, 12, 130);
+  color: white;
+  display: inline-block;
+  width: 150px;
+  margin: 15px auto;
+  padding: 25px 80px 25px 30px;
+  border-radius: 40px;
+  box-shadow: 0px 8px rgb(87, 3, 52);
+}
+.contact a::before {
+  content: "";
+  background-image: url(../img/mailicon.svg);
+  background-size: cover;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+  margin-right:  30px;
+}
+.contact a:active {
+  position: relative;
+  top: 8px;
+  box-shadow: none;
+}
+
+
+footer {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  color: gray;
+  font-size: 13px;
+}
